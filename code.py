@@ -27,7 +27,7 @@ BRIGHTNESS = 0.15  # 0.0 (off) to 1.0 (max brightness)
 # at 1.0 here (NeoPixel library runs faster at full brightness) and adjust
 # the global BRIGHTNESS above instead (used later when selecting HSV colors).
 PIXELS = neopixel.NeoPixel(
-    board.D5, 88, auto_write=False, brightness=1.0, pixel_order=neopixel.RGB)
+    board.D5, 132, auto_write=False, brightness=1.0, pixel_order=neopixel.RGB)
 
 # MODE indicates the current animation state through several bit fields.
 # Bit 0 indicates the second eye is x-axis mirrored (1) or an exact copy
